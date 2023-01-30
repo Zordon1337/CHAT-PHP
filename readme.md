@@ -4,7 +4,7 @@
 this chat doesn't have any form of security
 and this is vulnerable to XSS attacks, spamming etc.
 but you can still use it as local chat or chat for only people that you trust,
-if you want to use it as public chat it requires fixing the XSS vulnerability and other Vulnerabilities.d
+if you want to use it as public chat it requires fixing the XSS vulnerability and other Vulnerabilities
 ### Installation
 
 1. Clone Repo
