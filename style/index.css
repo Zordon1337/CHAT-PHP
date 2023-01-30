@@ -1,0 +1,10 @@
+@import url("font.css");
+body {
+    background-color: #001643;
+    margin: 125px;
+}
+.chatdiv {
+    background-color: aliceblue;
+    border-style: inset;
+    margin:center;
+}
