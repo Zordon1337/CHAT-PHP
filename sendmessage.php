@@ -3,8 +3,9 @@ include("scripts/db.php");
 
 $msg = $_POST['msg'];
 $user = $_COOKIE['usr'];
-$sql = "INSERT INTO `messages`(`User`, `Text`) VALUES ('$user','$msg') ";
-$result = $db->query($sql);
+$stmt = $db->prepare("INSERT INTO `messages`(`User`, `Text`) VALUES ('?','?') ");
+$stmt->bind_param('ss',$user,$msg);
+$stmt->execute();
 header("Location: index.php");
 die();
 if(empty($msg))

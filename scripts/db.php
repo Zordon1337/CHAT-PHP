@@ -1,3 +1,3 @@
 <?php
-$db = mysqli_connect("localhost","","","chat-php");
+$db = mysqli_connect("localhost","Zordon","","chat-php");
 ?>
