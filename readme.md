@@ -17,5 +17,5 @@ git clone git@github.com:Zordon1337/Web-Chat.git
 5. Enjoy!
 
 # Screenshots: 
-https://imgur.com/a/0t9JQDQ
-https://imgur.com/rJ2GfA3
+<img src="https://i.imgur.com/zUvi9HC.png" />
+<img src="https://i.imgur.com/rJ2GfA3.png" />
